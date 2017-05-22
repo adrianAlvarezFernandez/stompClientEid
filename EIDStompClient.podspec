@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.name         = "EIDStompClient"
   s.authors      = "Adrian Alvarez"
-  s.version      = "1.1"
+  s.version      = "1.0"
   s.requires_arc = true
   
   s.summary      = "VideoId sdk for iOS. Electronic Id."
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  # s.source       = { :http => "https://gitlab.com/eid-sdk/cocoapod/raw/master/Framework/EidSdkIos.zip" }
+  s.source       = { :http => "https://github.com/adrianAlvarezFernandez/stompClientEid/blob/master/EIDStompClient.zip" }
 
   # s.vendored_frameworks = "EidSdkIosFramework.framework"
   s.vendored_frameworks = "EIDStompClient.framework"
