@@ -1,0 +1,6 @@
+framework module Pods_EIDStompClient {
+  umbrella header "Pods-EIDStompClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
